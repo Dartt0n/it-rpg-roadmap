@@ -51,7 +51,8 @@ export function NodeCard({ data, setState }: NodeCardProps) {
       <div
         className={classes.image}
         style={{
-          backgroundImage: `url(${data.image})`
+          backgroundImage: `url(${data.image})`,
+          backgroundPositionX: 'center',
         }}
       />
       <div className={classes.overlay} />
