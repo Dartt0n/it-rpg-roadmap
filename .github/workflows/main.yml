@@ -1,4 +1,4 @@
-name: NanimAI Frontend Build
+name: Frontend Build
 
 on:
   release:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   push_to_registry:
-    name: Push Docker to repository 
+    name: Push Docker to repository
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
