@@ -1,27 +1,36 @@
 'use client';
 
-import { Container, SimpleGrid } from '@mantine/core';
+import { Container, Flex } from '@mantine/core';
 import { Dispatch, SetStateAction } from 'react';
 import { NodeCard, NodeCardData } from '../NodeCard/NodeCard';
 
 interface NodeGridProps {
-  data: NodeCardData[]
-  setCurrent: Dispatch<SetStateAction<number>>
+  level: number;
+  data: NodeCardData[];
+  setCurrent: Dispatch<SetStateAction<number>>;
 }
 
-export default function NodeGrid({ data, setCurrent }: NodeGridProps) {
-  const cards = data.map(card => (
+export default function NodeGrid({ level, data, setCurrent }: NodeGridProps) {
+  const cards = data.map((card) => (
     <div key={card.nodeIdx}>
-      <NodeCard setState={setCurrent} data={card}>
-      </NodeCard>
+      <NodeCard setState={setCurrent} data={card} level={level}></NodeCard>
     </div>
   ));
 
   return (
-    <Container py="xl">
-      <SimpleGrid cols={3} spacing="lg">
+    <Container fluid size="md">
+      <Flex
+        mih={50}
+        gap="xl"
+        justify="center"
+        align="center"
+        direction="row"
+        wrap="wrap"
+      >
+        {/* <SimpleGrid type="container" cols={{ base: 1, '600px': 2, '850px': 3, '1000px': 4 }} spacing="md"> */}
         {cards}
-      </SimpleGrid>
+        {/* </SimpleGrid> */}
+      </Flex>
     </Container>
   );
 }
