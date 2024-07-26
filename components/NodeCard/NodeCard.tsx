@@ -1,7 +1,8 @@
 'use client';
 
-import { Card, Text, Group, Button, rgba, rem } from '@mantine/core';
-import { Dispatch, SetStateAction, useState } from 'react';
+import { Card, Text, Group, Button, rgba, rem, Modal, Divider } from '@mantine/core';
+import { Dispatch, SetStateAction, useEffect, useState } from 'react';
+import { useDisclosure } from '@mantine/hooks';
 import classes from './NodeCard.module.css';
 import { prefixToColor } from '../../utils/prefixColor';
 
@@ -18,64 +19,98 @@ export interface NodeCardData {
 }
 
 interface NodeCardProps {
-  data: NodeCardData,
-  setState: Dispatch<SetStateAction<number>>,
+  level: number,
+  data: NodeCardData;
+  setState: Dispatch<SetStateAction<number>>;
 }
 
-export function NodeCard({ data, setState }: NodeCardProps) {
+export function NodeCard({ level, data, setState }: NodeCardProps) {
   const color = prefixToColor(data.prefix);
+  const enabled = level >= data.yearsRequired;
   const [hovered, setHovered] = useState(false);
+  const [openedModal, { open: openModal, close: closeModel }] = useDisclosure(false);
+
+  const buttonReadMore =
+    data.fullDesc !== '' ?
+      <Button
+        justify="center"
+        variant="outline"
+        mt="md"
+        color={color}
+        fullWidth
+        onClick={openModal}
+      >
+        Read more
+      </Button>
+      :
+      <></>;
+
 
   return (
-    <Card
-      key={data.nodeIdx}
-      p="lg"
-      w={rem(250)}
-      h={rem(280)}
-      shadow="lg"
-      className={classes.card}
-      radius="md"
-      component="a"
-      onClick={() => { setState(data.nodeIdx); }}
-      style={
-        {
-          boxShadow: hovered
-            ? `0 0 30px ${rgba(color, 0.5)}, 0 0 30px ${rgba(color, 0.1)}`
-            : 'none',
-          transition: 'box-shadow 0.3s ease-in-out',
-        }
-      }
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
-      <div
-        className={classes.image}
-        style={{
-          backgroundImage: `url(${data.image})`,
-          backgroundPositionX: 'center',
-        }}
-      />
-      <div className={classes.overlay} />
-
-      <div className={classes.content}>
-        <div>
-          <Text size="lg" className={classes.title} fw={500} c={color}>
+    <>
+      <Modal
+        opened={openedModal}
+        onClose={closeModel}
+        title={
+          <Text size="lg" className={classes.title} fw={700} c={color}>
             {data.prefix} {data.title}
           </Text>
+        }>
+        <Text size="md" className={classes.description}>
+          {data.shortDesc}
+        </Text>
+        <Divider my="md" />
+        <Text size="md" className={classes.description}>
+          {data.fullDesc}
+        </Text>
+      </Modal>
 
-          <Group justify="space-between" gap="xs">
-            <Text size="sm" className={classes.description}>
-              {data.shortDesc}
+      <Card
+        h={rem(360)}
+        maw={rem(360)}
+        shadow="lg"
+        className={classes.card}
+        radius="md"
+        component="a"
+        onClick={() => {
+          if (enabled) {
+            setState(data.nodeIdx);
+          }
+        }}
+        style={{
+          boxShadow: (hovered && enabled) ? `0 0 30px ${rgba(color, 0.5)}, 0 0 30px ${rgba(color, 0.1)}` : 'none',
+          transition: 'box-shadow 0.3s ease-in-out',
+        }}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        <div
+          className={classes.image}
+          style={{
+            backgroundImage: `url(${data.image})`,
+            backgroundPositionX: 'center',
+            WebkitFilter: enabled ? 'none' : 'grayscale(100%)',
+            filter: enabled ? 'none' : 'grayscale(100%)',
+          }}
+        />
+        <div className={classes.overlay} />
+
+        <div className={classes.content}>
+          <div>
+            <Text size="lg" className={classes.title} fw={700} c={color}>
+              {data.prefix} {data.title}
             </Text>
 
-            <Group gap="lg">
-              <Button justify="center" variant="outline" mt="md" color={color}>
-                Read more
-              </Button>
+            <Group justify="space-between" gap="xs">
+              <Text size="sm" className={classes.description}>
+                {data.shortDesc}
+              </Text>
+
+              {buttonReadMore}
             </Group>
-          </Group>
+          </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+    </>
   );
 }
