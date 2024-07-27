@@ -21,9 +21,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: '',
     type: 'Branch',
     shortDesc:
-      'Professionals focused on delivering measurable value through technology in organizations.',
+     'Professionals focused on delivering measurable value through technology in organizations.',
     fullDesc:
-      'Value Creators are experts who prioritize creating tangible business outcomes and ensuring that IT initiatives align with organizational goals. They analyze ROI, optimize processes, and implement strategies that enhance efficiency, productivity, and value delivery.',
+     'Value Creators are experts who prioritize creating tangible business outcomes and ensuring that IT initiatives align with organizational goals. They analyze ROI, optimize processes, and implement strategies that enhance efficiency, productivity, and value delivery.',
     image: 'nodes/value-creators.jpg',
     yearsRequired: 0,
     nextNodes: [0, 1, 2, 3, 4, 5, 6],
@@ -35,9 +35,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: '',
     type: 'Branch',
     shortDesc:
-      'Specialists who navigate the intersection of human resources and legal compliance within IT.',
+     'Specialists who navigate the intersection of human resources and legal compliance within IT.',
     fullDesc:
-      'This role encompasses understanding labor laws, data protection regulations, and industry standards to help organizations navigate the complex landscape of compliance. They work closely with HR and legal teams to develop policies that protect both the company and its employees.',
+     'This role encompasses understanding labor laws, data protection regulations, and industry standards to help organizations navigate the complex landscape of compliance. They work closely with HR and legal teams to develop policies that protect both the company and its employees.',
     image: 'nodes/people-regulations.jpg',
     yearsRequired: 0,
     nextNodes: [8, 9, 10, 11, 12],
@@ -50,7 +50,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Legal professionals specializing in the intersection of IT and law.',
     fullDesc:
-      'Individuals in this field provide legal guidance on matters such as contracts, intellectual property, data privacy, and technology regulations. They ensure that organizations adhere to laws and mitigate legal risks associated with technological advancements.',
+     'Individuals in this field provide legal guidance on matters such as contracts, intellectual property, data privacy, and technology regulations. They ensure that organizations adhere to laws and mitigate legal risks associated with technological advancements.',
     image: 'nodes/law.jpg',
     yearsRequired: 0,
     nextNodes: [14, 15],
@@ -63,7 +63,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts who protect and manage intellectual assets in technology.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/intellectual-property.jpg',
     yearsRequired: 0,
     nextNodes: [16],
@@ -76,7 +76,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts who protect and manage intellectual assets in technology.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/intellectual-property.jpg',
     yearsRequired: 1,
     nextNodes: [17],
@@ -89,7 +89,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts who protect and manage intellectual assets in technology.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/intellectual-property.jpg',
     yearsRequired: 2,
     nextNodes: [18],
@@ -102,7 +102,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts who protect and manage intellectual assets in technology.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/intellectual-property.jpg',
     yearsRequired: 4,
     nextNodes: [19],
@@ -115,7 +115,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts who protect and manage intellectual assets in technology.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/intellectual-property.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -128,7 +128,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals focused on preventing and responding to cybercrime incidents.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/cybercrime.jpg',
     yearsRequired: 0,
     nextNodes: [20],
@@ -141,7 +141,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals focused on preventing and responding to cybercrime incidents.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/cybercrime.jpg',
     yearsRequired: 1,
     nextNodes: [21],
@@ -154,7 +154,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals focused on preventing and responding to cybercrime incidents.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/cybercrime.jpg',
     yearsRequired: 2,
     nextNodes: [22],
@@ -167,7 +167,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals focused on preventing and responding to cybercrime incidents.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/cybercrime.jpg',
     yearsRequired: 4,
     nextNodes: [23],
@@ -180,7 +180,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals focused on preventing and responding to cybercrime incidents.',
     fullDesc:
-      'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
+     'Professionals specializing in intellectual property work to secure patents, trademarks, and copyrights for technological innovations. They navigate the complexities of IP law to protect the organization’s intellectual assets against infringement and ensure proper licensing.',
     image: 'nodes/cybercrime.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -193,7 +193,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Human Resource professionals managing workforce-related issues in IT.',
     fullDesc:
-      'HR in IT involves recruitment, training, performance management, and employee relations tailored to a tech environment. They focus on attracting, developing, and retaining talent while fostering a workplace culture conducive to innovation and collaboration.',
+     'HR in IT involves recruitment, training, performance management, and employee relations tailored to a tech environment. They focus on attracting, developing, and retaining talent while fostering a workplace culture conducive to innovation and collaboration.',
     image: 'nodes/hr.jpg',
     yearsRequired: 0,
     nextNodes: [24, 25],
@@ -206,7 +206,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Talent acquisition specialists focused on sourcing candidates for IT roles.',
     fullDesc:
-      'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
+     'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
     image: 'nodes/hr.jpg',
     yearsRequired: 0,
     nextNodes: [26],
@@ -219,7 +219,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Talent acquisition specialists focused on sourcing candidates for IT roles.',
     fullDesc:
-      'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
+     'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
     image: 'nodes/hr.jpg',
     yearsRequired: 1,
     nextNodes: [27],
@@ -232,7 +232,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Talent acquisition specialists focused on sourcing candidates for IT roles.',
     fullDesc:
-      'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
+     'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
     image: 'nodes/hr.jpg',
     yearsRequired: 2,
     nextNodes: [28],
@@ -245,7 +245,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Talent acquisition specialists focused on sourcing candidates for IT roles.',
     fullDesc:
-      'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
+     'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
     image: 'nodes/hr.jpg',
     yearsRequired: 4,
     nextNodes: [29],
@@ -258,7 +258,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Talent acquisition specialists focused on sourcing candidates for IT roles.',
     fullDesc:
-      'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
+     'Recruiters identify candidates for technical positions by utilizing various sourcing methodologies. They liaise between candidates and hiring managers, facilitate interview processes, and work to fill positions with the right talent in a competitive market.',
     image: 'nodes/hr.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -270,9 +270,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Intern',
     type: 'Profession',
     shortDesc:
-      'Developer Relations professionals fostering community engagement and support in tech.',
+     'Developer Relations professionals fostering community engagement and support in tech.',
     fullDesc:
-      'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
+     'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
     image: 'nodes/dev-rel.jpg',
     yearsRequired: 0,
     nextNodes: [30],
@@ -284,9 +284,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Junior',
     type: 'Profession',
     shortDesc:
-      'Developer Relations professionals fostering community engagement and support in tech.',
+     'Developer Relations professionals fostering community engagement and support in tech.',
     fullDesc:
-      'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
+     'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
     image: 'nodes/dev-rel.jpg',
     yearsRequired: 1,
     nextNodes: [31],
@@ -298,9 +298,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Middle',
     type: 'Profession',
     shortDesc:
-      'Developer Relations professionals fostering community engagement and support in tech.',
+     'Developer Relations professionals fostering community engagement and support in tech.',
     fullDesc:
-      'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
+     'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
     image: 'nodes/dev-rel.jpg',
     yearsRequired: 2,
     nextNodes: [32],
@@ -312,9 +312,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Senior',
     type: 'Profession',
     shortDesc:
-      'Developer Relations professionals fostering community engagement and support in tech.',
+     'Developer Relations professionals fostering community engagement and support in tech.',
     fullDesc:
-      'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
+     'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
     image: 'nodes/dev-rel.jpg',
     yearsRequired: 4,
     nextNodes: [33],
@@ -326,9 +326,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'CEO',
     type: 'Profession',
     shortDesc:
-      'Developer Relations professionals fostering community engagement and support in tech.',
+     'Developer Relations professionals fostering community engagement and support in tech.',
     fullDesc:
-      'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
+     'dev-rel experts engage with the developer community, provide support, and promote products and services. They bridge the gap between the company’s technical offerings and developers by hosting events, creating content, and gathering feedback to improve products.',
     image: 'nodes/dev-rel.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -341,7 +341,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Experts focusing on creating and managing technical documentation.',
     fullDesc:
-      'Documentations specialists produce user manuals, system guides, and API documentation. They ensure that technical information is clear, comprehensive, and accessible, facilitating user understanding and enhancing product usability.',
+     'Documentations specialists produce user manuals, system guides, and API documentation. They ensure that technical information is clear, comprehensive, and accessible, facilitating user understanding and enhancing product usability.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 0,
     nextNodes: [34],
@@ -354,7 +354,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Writers who produce technical documentation for IT products or services.',
     fullDesc:
-      'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
+     'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 0,
     nextNodes: [35],
@@ -367,7 +367,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Writers who produce technical documentation for IT products or services.',
     fullDesc:
-      'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
+     'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 1,
     nextNodes: [36],
@@ -380,7 +380,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Writers who produce technical documentation for IT products or services.',
     fullDesc:
-      'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
+     'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 2,
     nextNodes: [37],
@@ -393,7 +393,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Writers who produce technical documentation for IT products or services.',
     fullDesc:
-      'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
+     'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 4,
     nextNodes: [38],
@@ -406,7 +406,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Writers who produce technical documentation for IT products or services.',
     fullDesc:
-      'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
+     'Technical Writers specialize in transforming complex technical concepts into user-friendly content. They collaborate with engineers and product managers to create clear documentation that supports product use and understanding.',
     image: 'nodes/tech-writer.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -419,7 +419,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Data specialists analyzing metrics to drive decision-making.',
     fullDesc:
-      'Analytics experts utilize statistical tools and methodologies to interpret data. They provide insights into trends and performance metrics, helping organizations make data-driven decisions and optimize business processes.',
+     'Analytics experts utilize statistical tools and methodologies to interpret data. They provide insights into trends and performance metrics, helping organizations make data-driven decisions and optimize business processes.',
     image: 'nodes/analytics.jpg',
     yearsRequired: 0,
     nextNodes: [39, 40],
@@ -432,7 +432,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'IT professionals assessing and optimizing computer systems.',
     fullDesc:
-      'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
+     'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
     image: 'nodes/system-analyst.jpg',
     yearsRequired: 0,
     nextNodes: [41],
@@ -445,7 +445,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'IT professionals assessing and optimizing computer systems.',
     fullDesc:
-      'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
+     'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
     image: 'nodes/system-analyst.jpg',
     yearsRequired: 1,
     nextNodes: [42],
@@ -458,7 +458,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'IT professionals assessing and optimizing computer systems.',
     fullDesc:
-      'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
+     'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
     image: 'nodes/system-analyst.jpg',
     yearsRequired: 2,
     nextNodes: [43],
@@ -471,7 +471,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'IT professionals assessing and optimizing computer systems.',
     fullDesc:
-      'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
+     'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
     image: 'nodes/system-analyst.jpg',
     yearsRequired: 4,
     nextNodes: [44],
@@ -484,7 +484,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'IT professionals assessing and optimizing computer systems.',
     fullDesc:
-      'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
+     'System Analysts focus on analyzing system requirements, developing solutions, and improving IT infrastructure. They act as a liaison between stakeholders and technical teams to ensure systems meet business needs effectively.',
     image: 'nodes/system-analyst.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -497,7 +497,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Analysts focused on identifying business needs and solutions.',
     fullDesc:
-      'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
+     'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
     image: 'nodes/business-analyst.jpg',
     yearsRequired: 0,
     nextNodes: [45],
@@ -510,7 +510,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Analysts focused on identifying business needs and solutions.',
     fullDesc:
-      'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
+     'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
     image: 'nodes/business-analyst.jpg',
     yearsRequired: 1,
     nextNodes: [46],
@@ -523,7 +523,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Analysts focused on identifying business needs and solutions.',
     fullDesc:
-      'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
+     'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
     image: 'nodes/business-analyst.jpg',
     yearsRequired: 2,
     nextNodes: [47],
@@ -536,7 +536,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Analysts focused on identifying business needs and solutions.',
     fullDesc:
-      'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
+     'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
     image: 'nodes/business-analyst.jpg',
     yearsRequired: 4,
     nextNodes: [48],
@@ -549,7 +549,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Analysts focused on identifying business needs and solutions.',
     fullDesc:
-      'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
+     'Business Analysts gather requirements, analyze processes, and propose improvements to enhance efficiency and profitability. They play a crucial role in bridging the gap between business objectives and IT solutions.',
     image: 'nodes/business-analyst.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -562,7 +562,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Professionals overseeing teams and projects in IT.',
     fullDesc:
-      'Management in IT involves strategic oversight of teams and projects to meet business goals. IT managers coordinate resources, assess performance, and ensure projects align with organizational objectives.',
+     'Management in IT involves strategic oversight of teams and projects to meet business goals. IT managers coordinate resources, assess performance, and ensure projects align with organizational objectives.',
     image: 'nodes/management.jpg',
     yearsRequired: 0,
     nextNodes: [49, 50],
@@ -575,7 +575,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Leaders responsible for overseeing IT projects from initiation to completion.',
     fullDesc:
-      'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
+     'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
     image: 'nodes/project-manager.jpg',
     yearsRequired: 0,
     nextNodes: [51],
@@ -588,7 +588,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Leaders responsible for overseeing IT projects from initiation to completion.',
     fullDesc:
-      'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
+     'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
     image: 'nodes/project-manager.jpg',
     yearsRequired: 1,
     nextNodes: [52],
@@ -601,7 +601,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Leaders responsible for overseeing IT projects from initiation to completion.',
     fullDesc:
-      'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
+     'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
     image: 'nodes/project-manager.jpg',
     yearsRequired: 2,
     nextNodes: [53],
@@ -614,7 +614,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Leaders responsible for overseeing IT projects from initiation to completion.',
     fullDesc:
-      'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
+     'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
     image: 'nodes/project-manager.jpg',
     yearsRequired: 4,
     nextNodes: [54],
@@ -627,7 +627,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Leaders responsible for overseeing IT projects from initiation to completion.',
     fullDesc:
-      'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
+     'Project Managers oversee project timelines, budgets, and resources. They ensure that projects are delivered on time, within scope, and to stakeholder satisfaction by applying project management methodologies.',
     image: 'nodes/project-manager.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -640,7 +640,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals guiding the development and lifecycle of IT products.',
     fullDesc:
-      'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
+     'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
     image: 'nodes/product-manager.jpg',
     yearsRequired: 0,
     nextNodes: [55],
@@ -653,7 +653,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals guiding the development and lifecycle of IT products.',
     fullDesc:
-      'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
+     'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
     image: 'nodes/product-manager.jpg',
     yearsRequired: 1,
     nextNodes: [56],
@@ -666,7 +666,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals guiding the development and lifecycle of IT products.',
     fullDesc:
-      'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
+     'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
     image: 'nodes/product-manager.jpg',
     yearsRequired: 2,
     nextNodes: [57],
@@ -679,7 +679,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals guiding the development and lifecycle of IT products.',
     fullDesc:
-      'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
+     'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
     image: 'nodes/product-manager.jpg',
     yearsRequired: 4,
     nextNodes: [58],
@@ -692,7 +692,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals guiding the development and lifecycle of IT products.',
     fullDesc:
-      'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
+     'Product Managers define product vision, gather market and user data, and prioritize feature development. They lead cross-functional teams to deliver products that meet user needs and business goals.',
     image: 'nodes/product-manager.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -705,7 +705,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Specialists responsible for protecting IT systems and data from threats.',
     fullDesc:
-      'Security professionals develop and implement security protocols to protect systems and data from breaches and vulnerabilities. They monitor security events and respond to incidents while ensuring compliance with regulations.',
+     'Security professionals develop and implement security protocols to protect systems and data from breaches and vulnerabilities. They monitor security events and respond to incidents while ensuring compliance with regulations.',
     image: 'nodes/infosec.jpg',
     yearsRequired: 0,
     nextNodes: [59, 60],
@@ -718,7 +718,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts conducting penetration testing to identify security vulnerabilities.',
     fullDesc:
-      'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
+     'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
     image: 'nodes/pentest.jpg',
     yearsRequired: 0,
     nextNodes: [61],
@@ -731,7 +731,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts conducting penetration testing to identify security vulnerabilities.',
     fullDesc:
-      'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
+     'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
     image: 'nodes/pentest.jpg',
     yearsRequired: 1,
     nextNodes: [62],
@@ -744,7 +744,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts conducting penetration testing to identify security vulnerabilities.',
     fullDesc:
-      'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
+     'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
     image: 'nodes/pentest.jpg',
     yearsRequired: 2,
     nextNodes: [63],
@@ -757,7 +757,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts conducting penetration testing to identify security vulnerabilities.',
     fullDesc:
-      'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
+     'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
     image: 'nodes/pentest.jpg',
     yearsRequired: 4,
     nextNodes: [64],
@@ -770,7 +770,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts conducting penetration testing to identify security vulnerabilities.',
     fullDesc:
-      'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
+     'Penetration Testers simulate cyber-attacks to assess system vulnerabilities and recommend remediation strategies. They play a critical role in enhancing cybersecurity by identifying weaknesses before they can be exploited by malicious actors.',
     image: 'nodes/pentest.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -783,7 +783,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists managing data governance and compliance in IT.',
     fullDesc:
-      'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
+     'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
     image: 'nodes/information-control.jpg',
     yearsRequired: 0,
     nextNodes: [65],
@@ -796,7 +796,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists managing data governance and compliance in IT.',
     fullDesc:
-      'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
+     'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
     image: 'nodes/information-control.jpg',
     yearsRequired: 1,
     nextNodes: [66],
@@ -809,7 +809,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists managing data governance and compliance in IT.',
     fullDesc:
-      'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
+     'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
     image: 'nodes/information-control.jpg',
     yearsRequired: 2,
     nextNodes: [67],
@@ -822,7 +822,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists managing data governance and compliance in IT.',
     fullDesc:
-      'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
+     'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
     image: 'nodes/information-control.jpg',
     yearsRequired: 4,
     nextNodes: [68],
@@ -835,7 +835,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists managing data governance and compliance in IT.',
     fullDesc:
-      'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
+     'Information Control specialists ensure that data management policies are implemented effectively. They oversee access controls, data classification, and compliance measures to protect sensitive information within an organization.',
     image: 'nodes/information-control.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -848,7 +848,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in the design and implementation of robotic systems.',
     fullDesc:
-      'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
+     'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
     image: 'nodes/robotics.jpg',
     yearsRequired: 0,
     nextNodes: [69],
@@ -861,7 +861,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in the design and implementation of robotic systems.',
     fullDesc:
-      'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
+     'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
     image: 'nodes/robotics.jpg',
     yearsRequired: 1,
     nextNodes: [70],
@@ -874,7 +874,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in the design and implementation of robotic systems.',
     fullDesc:
-      'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
+     'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
     image: 'nodes/robotics.jpg',
     yearsRequired: 2,
     nextNodes: [71],
@@ -887,7 +887,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in the design and implementation of robotic systems.',
     fullDesc:
-      'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
+     'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
     image: 'nodes/robotics.jpg',
     yearsRequired: 4,
     nextNodes: [72],
@@ -900,7 +900,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in the design and implementation of robotic systems.',
     fullDesc:
-      'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
+     'Robotics professionals work on creating, programming, and deploying robotic systems for various applications. They integrate hardware and software to enhance automation processes across industries.',
     image: 'nodes/robotics.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -913,7 +913,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Creative professionals crafting visual and functional designs for technology.',
     fullDesc:
-      'Design experts develop visual elements for products and interfaces, ensuring user-centric solutions that are aesthetically pleasing and functional. Their work enhances the overall user experience.',
+     'Design experts develop visual elements for products and interfaces, ensuring user-centric solutions that are aesthetically pleasing and functional. Their work enhances the overall user experience.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 0,
     nextNodes: [73],
@@ -926,7 +926,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in User Interface and User Experience design for technology products.',
     fullDesc:
-      'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
+     'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 0,
     nextNodes: [74],
@@ -939,7 +939,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in User Interface and User Experience design for technology products.',
     fullDesc:
-      'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
+     'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 1,
     nextNodes: [75],
@@ -952,7 +952,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in User Interface and User Experience design for technology products.',
     fullDesc:
-      'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
+     'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 2,
     nextNodes: [76],
@@ -965,7 +965,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in User Interface and User Experience design for technology products.',
     fullDesc:
-      'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
+     'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 4,
     nextNodes: [77],
@@ -978,7 +978,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in User Interface and User Experience design for technology products.',
     fullDesc:
-      'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
+     'UI/UX professionals focus on making technology user-friendly through design principles and user research. They aim to improve the usability and satisfaction of digital products by enhancing navigation and interaction.',
     image: 'nodes/ui-ux-designer.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -991,7 +991,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Professionals responsible for evaluating software quality and performance.',
     fullDesc:
-      'Testing professionals develop and execute test plans to ensure software quality. They identify defects and validate that products meet specifications, contributing to overall product reliability.',
+     'Testing professionals develop and execute test plans to ensure software quality. They identify defects and validate that products meet specifications, contributing to overall product reliability.',
     image: 'nodes/tester.jpg',
     yearsRequired: 0,
     nextNodes: [78],
@@ -1004,7 +1004,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Quality Assurance professionals ensuring technology products meet standards.',
     fullDesc:
-      'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
+     'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
     image: 'nodes/tester.jpg',
     yearsRequired: 0,
     nextNodes: [79],
@@ -1017,7 +1017,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Quality Assurance professionals ensuring technology products meet standards.',
     fullDesc:
-      'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
+     'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
     image: 'nodes/tester.jpg',
     yearsRequired: 1,
     nextNodes: [80],
@@ -1030,7 +1030,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Quality Assurance professionals ensuring technology products meet standards.',
     fullDesc:
-      'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
+     'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
     image: 'nodes/tester.jpg',
     yearsRequired: 2,
     nextNodes: [81],
@@ -1043,7 +1043,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Quality Assurance professionals ensuring technology products meet standards.',
     fullDesc:
-      'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
+     'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
     image: 'nodes/tester.jpg',
     yearsRequired: 4,
     nextNodes: [82],
@@ -1056,7 +1056,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Quality Assurance professionals ensuring technology products meet standards.',
     fullDesc:
-      'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
+     'QA experts implement processes and methodologies to verify software quality and performance. They test products throughout development to identify issues and ensure compliance with quality standards.',
     image: 'nodes/tester.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1069,7 +1069,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'IT Operations professionals overseeing technology infrastructure and services.',
     fullDesc:
-      'Ops specialists oversee the functioning of IT systems, ensuring uptime, performance, and efficiency. They manage day-to-day operations, monitor system performance, and respond to incidents effectively.',
+     'Ops specialists oversee the functioning of IT systems, ensuring uptime, performance, and efficiency. They manage day-to-day operations, monitor system performance, and respond to incidents effectively.',
     image: 'nodes/ops.jpg',
     yearsRequired: 0,
     nextNodes: [83, 84],
@@ -1082,7 +1082,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals combining software development and IT operations for efficiency.',
     fullDesc:
-      'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
+     'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
     image: 'nodes/devops.jpg',
     yearsRequired: 0,
     nextNodes: [5, 85],
@@ -1095,7 +1095,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals combining software development and IT operations for efficiency.',
     fullDesc:
-      'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
+     'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
     image: 'nodes/devops.jpg',
     yearsRequired: 1,
     nextNodes: [5, 86],
@@ -1108,7 +1108,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals combining software development and IT operations for efficiency.',
     fullDesc:
-      'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
+     'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
     image: 'nodes/devops.jpg',
     yearsRequired: 2,
     nextNodes: [5, 87],
@@ -1121,7 +1121,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals combining software development and IT operations for efficiency.',
     fullDesc:
-      'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
+     'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
     image: 'nodes/devops.jpg',
     yearsRequired: 4,
     nextNodes: [5, 88],
@@ -1134,7 +1134,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals combining software development and IT operations for efficiency.',
     fullDesc:
-      'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
+     'DevOps professionals aim to improve collaboration between development and operations teams through automation and continuous integration, facilitating faster and more reliable software releases.',
     image: 'nodes/devops.jpg',
     yearsRequired: 5,
     nextNodes: [5],
@@ -1147,7 +1147,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in managing machine learning model deployments and lifecycle.',
     fullDesc:
-      'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
+     'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
     image: 'nodes/mlops.jpg',
     yearsRequired: 0,
     nextNodes: [6, 89],
@@ -1160,7 +1160,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in managing machine learning model deployments and lifecycle.',
     fullDesc:
-      'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
+     'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
     image: 'nodes/mlops.jpg',
     yearsRequired: 1,
     nextNodes: [6, 90],
@@ -1173,7 +1173,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in managing machine learning model deployments and lifecycle.',
     fullDesc:
-      'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
+     'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
     image: 'nodes/mlops.jpg',
     yearsRequired: 2,
     nextNodes: [6, 91],
@@ -1186,7 +1186,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in managing machine learning model deployments and lifecycle.',
     fullDesc:
-      'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
+     'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
     image: 'nodes/mlops.jpg',
     yearsRequired: 4,
     nextNodes: [6, 92],
@@ -1199,7 +1199,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Experts in managing machine learning model deployments and lifecycle.',
     fullDesc:
-      'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
+     'MLOps professionals optimize the lifecycle of machine learning models, ensuring they are robust, scalable, and continuously monitored. They enhance collaboration between data scientists and IT operations to streamline ML deployment.',
     image: 'nodes/mlops.jpg',
     yearsRequired: 5,
     nextNodes: [6],
@@ -1212,7 +1212,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Professionals involved in software development and programming.',
     fullDesc:
-      'Development specialists create software applications by writing and testing code. They work on different projects and technologies, contributing to the lifecycle of software development from concept to delivery.',
+     'Development specialists create software applications by writing and testing code. They work on different projects and technologies, contributing to the lifecycle of software development from concept to delivery.',
     image: 'nodes/dev.jpg',
     yearsRequired: 0,
     nextNodes: [93, 94, 95, 96, 97, 98, 99, 100, 101],
@@ -1225,7 +1225,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on server-side application logic and databases.',
     fullDesc:
-      'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
+     'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
     image: 'nodes/backend-dev.jpg',
     yearsRequired: 0,
     nextNodes: [102, 103],
@@ -1238,7 +1238,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on server-side application logic and databases.',
     fullDesc:
-      'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
+     'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
     image: 'nodes/backend-dev.jpg',
     yearsRequired: 1,
     nextNodes: [102, 104],
@@ -1251,7 +1251,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on server-side application logic and databases.',
     fullDesc:
-      'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
+     'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
     image: 'nodes/backend-dev.jpg',
     yearsRequired: 2,
     nextNodes: [102, 105],
@@ -1264,7 +1264,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on server-side application logic and databases.',
     fullDesc:
-      'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
+     'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
     image: 'nodes/backend-dev.jpg',
     yearsRequired: 4,
     nextNodes: [102, 106],
@@ -1277,7 +1277,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on server-side application logic and databases.',
     fullDesc:
-      'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
+     'Backend developers create the server-side components of web applications, ensuring data management and server functionality. They work with databases, APIs, and application servers to enable seamless communication between the client and server.',
     image: 'nodes/backend-dev.jpg',
     yearsRequired: 5,
     nextNodes: [102],
@@ -1290,7 +1290,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating user interfaces and client-side experiences.',
     fullDesc:
-      'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
+     'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
     image: 'nodes/frontend-dev.jpg',
     yearsRequired: 0,
     nextNodes: [107, 108],
@@ -1303,7 +1303,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating user interfaces and client-side experiences.',
     fullDesc:
-      'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
+     'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
     image: 'nodes/frontend-dev.jpg',
     yearsRequired: 1,
     nextNodes: [107, 109],
@@ -1316,7 +1316,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating user interfaces and client-side experiences.',
     fullDesc:
-      'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
+     'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
     image: 'nodes/frontend-dev.jpg',
     yearsRequired: 2,
     nextNodes: [107, 110],
@@ -1329,7 +1329,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating user interfaces and client-side experiences.',
     fullDesc:
-      'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
+     'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
     image: 'nodes/frontend-dev.jpg',
     yearsRequired: 4,
     nextNodes: [107, 111],
@@ -1342,7 +1342,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating user interfaces and client-side experiences.',
     fullDesc:
-      'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
+     'Frontend developers focus on the user interface and experience, transforming design prototypes into functional web pages. They utilize HTML, CSS, and JavaScript to enhance user interaction and accessibility.',
     image: 'nodes/frontend-dev.jpg',
     yearsRequired: 5,
     nextNodes: [107],
@@ -1355,7 +1355,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Developers specializing in mobile application development.',
     fullDesc:
-      'Mobile developers create applications for mobile devices, utilizing platforms such as Android and iOS. They focus on optimizing user experiences and functionalities specific to mobile environments.',
+     'Mobile developers create applications for mobile devices, utilizing platforms such as Android and iOS. They focus on optimizing user experiences and functionalities specific to mobile environments.',
     image: 'nodes/mobile.jpg',
     yearsRequired: 0,
     nextNodes: [112, 113],
@@ -1368,7 +1368,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Developers designing applications to run on desktop operating systems.',
     fullDesc:
-      'Desktop developers create software applications for Windows, Mac, and Linux. They build programs that leverage the full capabilities of desktop environments, focusing on usability and system integration.',
+     'Desktop developers create software applications for Windows, Mac, and Linux. They build programs that leverage the full capabilities of desktop environments, focusing on usability and system integration.',
     image: 'nodes/desktop.jpg',
     yearsRequired: 0,
     nextNodes: [114, 115, 116],
@@ -1381,7 +1381,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists in operating systems development and maintenance.',
     fullDesc:
-      'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
+     'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
     image: 'nodes/os-dev.jpg',
     yearsRequired: 0,
     nextNodes: [117],
@@ -1394,7 +1394,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists in operating systems development and maintenance.',
     fullDesc:
-      'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
+     'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
     image: 'nodes/os-dev.jpg',
     yearsRequired: 1,
     nextNodes: [118],
@@ -1407,7 +1407,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists in operating systems development and maintenance.',
     fullDesc:
-      'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
+     'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
     image: 'nodes/os-dev.jpg',
     yearsRequired: 2,
     nextNodes: [119],
@@ -1420,7 +1420,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists in operating systems development and maintenance.',
     fullDesc:
-      'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
+     'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
     image: 'nodes/os-dev.jpg',
     yearsRequired: 4,
     nextNodes: [120],
@@ -1433,7 +1433,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists in operating systems development and maintenance.',
     fullDesc:
-      'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
+     'OS professionals work on the design, development, and support of operating systems, ensuring system stability, security, and efficiency. They focus on kernel programming, user interfaces, and system performance enhancements.',
     image: 'nodes/os-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1446,7 +1446,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers designing software for embedded systems.',
     fullDesc:
-      'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
+     'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
     image: 'nodes/embedded.jpg',
     yearsRequired: 0,
     nextNodes: [121],
@@ -1459,7 +1459,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers designing software for embedded systems.',
     fullDesc:
-      'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
+     'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
     image: 'nodes/embedded.jpg',
     yearsRequired: 1,
     nextNodes: [122],
@@ -1472,7 +1472,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers designing software for embedded systems.',
     fullDesc:
-      'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
+     'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
     image: 'nodes/embedded.jpg',
     yearsRequired: 2,
     nextNodes: [123],
@@ -1485,7 +1485,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers designing software for embedded systems.',
     fullDesc:
-      'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
+     'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
     image: 'nodes/embedded.jpg',
     yearsRequired: 4,
     nextNodes: [124],
@@ -1498,7 +1498,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers designing software for embedded systems.',
     fullDesc:
-      'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
+     'Embedded systems developers create software for specialized hardware like IoT devices and appliances. They optimize code for performance and efficiency, often working with hardware constraints.',
     image: 'nodes/embedded.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1511,7 +1511,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating video games across platforms.',
     fullDesc:
-      'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
+     'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
     image: 'nodes/game-dev.jpg',
     yearsRequired: 0,
     nextNodes: [125],
@@ -1524,7 +1524,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating video games across platforms.',
     fullDesc:
-      'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
+     'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
     image: 'nodes/game-dev.jpg',
     yearsRequired: 1,
     nextNodes: [126],
@@ -1537,7 +1537,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating video games across platforms.',
     fullDesc:
-      'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
+     'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
     image: 'nodes/game-dev.jpg',
     yearsRequired: 2,
     nextNodes: [127],
@@ -1550,7 +1550,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating video games across platforms.',
     fullDesc:
-      'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
+     'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
     image: 'nodes/game-dev.jpg',
     yearsRequired: 4,
     nextNodes: [128],
@@ -1563,7 +1563,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating video games across platforms.',
     fullDesc:
-      'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
+     'Game developers design and code interactive entertainment experiences, including gameplay mechanics, graphics, and sound. They apply creative and technical skills to deliver engaging gaming experiences.',
     image: 'nodes/game-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1576,7 +1576,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on blockchain technology implementation and development.',
     fullDesc:
-      'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
+     'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
     image: 'nodes/blockchain-dev.jpg',
     yearsRequired: 0,
     nextNodes: [129],
@@ -1589,7 +1589,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on blockchain technology implementation and development.',
     fullDesc:
-      'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
+     'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
     image: 'nodes/blockchain-dev.jpg',
     yearsRequired: 1,
     nextNodes: [130],
@@ -1602,7 +1602,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on blockchain technology implementation and development.',
     fullDesc:
-      'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
+     'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
     image: 'nodes/blockchain-dev.jpg',
     yearsRequired: 2,
     nextNodes: [131],
@@ -1615,7 +1615,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on blockchain technology implementation and development.',
     fullDesc:
-      'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
+     'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
     image: 'nodes/blockchain-dev.jpg',
     yearsRequired: 4,
     nextNodes: [132],
@@ -1628,7 +1628,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on blockchain technology implementation and development.',
     fullDesc:
-      'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
+     'Blockchain professionals design decentralized systems using blockchain technology, ensuring security, transparency, and efficiency. They develop smart contracts and maintain ledger integrity while exploring innovative use cases.',
     image: 'nodes/blockchain-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1641,7 +1641,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals specializing in the 1C:Enterprise platform for business automation.',
     fullDesc:
-      '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
+     '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
     image: 'nodes/1c-dev.jpg',
     yearsRequired: 0,
     nextNodes: [133],
@@ -1654,7 +1654,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals specializing in the 1C:Enterprise platform for business automation.',
     fullDesc:
-      '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
+     '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
     image: 'nodes/1c-dev.jpg',
     yearsRequired: 1,
     nextNodes: [134],
@@ -1667,7 +1667,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals specializing in the 1C:Enterprise platform for business automation.',
     fullDesc:
-      '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
+     '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
     image: 'nodes/1c-dev.jpg',
     yearsRequired: 2,
     nextNodes: [135],
@@ -1680,7 +1680,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals specializing in the 1C:Enterprise platform for business automation.',
     fullDesc:
-      '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
+     '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
     image: 'nodes/1c-dev.jpg',
     yearsRequired: 4,
     nextNodes: [136],
@@ -1693,7 +1693,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Professionals specializing in the 1C:Enterprise platform for business automation.',
     fullDesc:
-      '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
+     '1C specialists implement and support business automation solutions using the 1C framework. They develop applications that streamline various business processes for accounting and management.',
     image: 'nodes/1c-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1706,7 +1706,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers skilled in both frontend and backend technologies.',
     fullDesc:
-      'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
+     'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
     image: 'nodes/fullstack-dev.jpg',
     yearsRequired: 0,
     nextNodes: [137],
@@ -1719,7 +1719,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers skilled in both frontend and backend technologies.',
     fullDesc:
-      'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
+     'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
     image: 'nodes/fullstack-dev.jpg',
     yearsRequired: 1,
     nextNodes: [138],
@@ -1732,7 +1732,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers skilled in both frontend and backend technologies.',
     fullDesc:
-      'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
+     'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
     image: 'nodes/fullstack-dev.jpg',
     yearsRequired: 2,
     nextNodes: [139],
@@ -1745,7 +1745,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers skilled in both frontend and backend technologies.',
     fullDesc:
-      'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
+     'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
     image: 'nodes/fullstack-dev.jpg',
     yearsRequired: 4,
     nextNodes: [140],
@@ -1758,7 +1758,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers skilled in both frontend and backend technologies.',
     fullDesc:
-      'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
+     'Fullstack developers have expertise in all layers of web application development, from the user interface to server-side logic. They can manage complete projects, understand databases, and create seamless user experiences.',
     image: 'nodes/fullstack-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1771,7 +1771,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists improving website visibility through search engine optimization.',
     fullDesc:
-      "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
+     "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
     image: 'nodes/seo.jpg',
     yearsRequired: 0,
     nextNodes: [141],
@@ -1784,7 +1784,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists improving website visibility through search engine optimization.',
     fullDesc:
-      "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
+     "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
     image: 'nodes/seo.jpg',
     yearsRequired: 1,
     nextNodes: [142],
@@ -1797,7 +1797,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists improving website visibility through search engine optimization.',
     fullDesc:
-      "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
+     "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
     image: 'nodes/seo.jpg',
     yearsRequired: 2,
     nextNodes: [143],
@@ -1810,7 +1810,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists improving website visibility through search engine optimization.',
     fullDesc:
-      "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
+     "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
     image: 'nodes/seo.jpg',
     yearsRequired: 4,
     nextNodes: [144],
@@ -1823,7 +1823,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists improving website visibility through search engine optimization.',
     fullDesc:
-      "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
+     "SEO professionals analyze and implement strategies to enhance a website's ranking in search engine results.They focus on keyword optimization, content creation, and technical factors to drive organic traffic.",
     image: 'nodes/seo.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -1836,7 +1836,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specializing in creating applications for the Android platform.',
     fullDesc:
-      'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
+     'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
     image: 'nodes/mobile-android-dev.jpg',
     yearsRequired: 0,
     nextNodes: [145, 146],
@@ -1849,7 +1849,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specializing in creating applications for the Android platform.',
     fullDesc:
-      'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
+     'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
     image: 'nodes/mobile-android-dev.jpg',
     yearsRequired: 1,
     nextNodes: [145, 147],
@@ -1862,7 +1862,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specializing in creating applications for the Android platform.',
     fullDesc:
-      'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
+     'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
     image: 'nodes/mobile-android-dev.jpg',
     yearsRequired: 2,
     nextNodes: [145, 148],
@@ -1875,7 +1875,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specializing in creating applications for the Android platform.',
     fullDesc:
-      'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
+     'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
     image: 'nodes/mobile-android-dev.jpg',
     yearsRequired: 4,
     nextNodes: [145, 149],
@@ -1888,7 +1888,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specializing in creating applications for the Android platform.',
     fullDesc:
-      'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
+     'Android developers design and build applications for devices running the Android operating system. They work with Android SDK and programming languages such as Java and Kotlin to create user-friendly mobile applications.',
     image: 'nodes/mobile-android-dev.jpg',
     yearsRequired: 5,
     nextNodes: [145],
@@ -1901,7 +1901,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating applications for iOS devices.',
     fullDesc:
-      'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
+     'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
     image: 'nodes/mobile-ios-dev.jpg',
     yearsRequired: 0,
     nextNodes: [145, 150],
@@ -1914,7 +1914,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating applications for iOS devices.',
     fullDesc:
-      'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
+     'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
     image: 'nodes/mobile-ios-dev.jpg',
     yearsRequired: 1,
     nextNodes: [145, 151],
@@ -1927,7 +1927,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating applications for iOS devices.',
     fullDesc:
-      'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
+     'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
     image: 'nodes/mobile-ios-dev.jpg',
     yearsRequired: 2,
     nextNodes: [145, 152],
@@ -1940,7 +1940,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating applications for iOS devices.',
     fullDesc:
-      'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
+     'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
     image: 'nodes/mobile-ios-dev.jpg',
     yearsRequired: 4,
     nextNodes: [145, 153],
@@ -1953,7 +1953,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focused on creating applications for iOS devices.',
     fullDesc:
-      'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
+     'IOS developers create applications optimized for Apple devices using Swift and Objective-C. They are responsible for ensuring performance, user experience, and adherence to Apple’s guidelines.',
     image: 'nodes/mobile-ios-dev.jpg',
     yearsRequired: 5,
     nextNodes: [145],
@@ -1966,7 +1966,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating applications that run on multiple platforms.',
     fullDesc:
-      'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
+     'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
     image: 'nodes/mobile-cross-dev.jpg',
     yearsRequired: 0,
     nextNodes: [154],
@@ -1979,7 +1979,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating applications that run on multiple platforms.',
     fullDesc:
-      'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
+     'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
     image: 'nodes/mobile-cross-dev.jpg',
     yearsRequired: 1,
     nextNodes: [155],
@@ -1992,7 +1992,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating applications that run on multiple platforms.',
     fullDesc:
-      'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
+     'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
     image: 'nodes/mobile-cross-dev.jpg',
     yearsRequired: 2,
     nextNodes: [156],
@@ -2005,7 +2005,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating applications that run on multiple platforms.',
     fullDesc:
-      'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
+     'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
     image: 'nodes/mobile-cross-dev.jpg',
     yearsRequired: 4,
     nextNodes: [157],
@@ -2018,7 +2018,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers creating applications that run on multiple platforms.',
     fullDesc:
-      'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
+     'Crossplatform developers use frameworks to build applications that operate on multiple operating systems. They ensure compatibility and consistent user experience regardless of the device used.',
     image: 'nodes/mobile-cross-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2031,7 +2031,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating software for macOS.',
     fullDesc:
-      'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
+     'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
     image: 'nodes/desktop-mac-dev.jpg',
     yearsRequired: 0,
     nextNodes: [158],
@@ -2044,7 +2044,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating software for macOS.',
     fullDesc:
-      'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
+     'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
     image: 'nodes/desktop-mac-dev.jpg',
     yearsRequired: 1,
     nextNodes: [159],
@@ -2057,7 +2057,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating software for macOS.',
     fullDesc:
-      'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
+     'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
     image: 'nodes/desktop-mac-dev.jpg',
     yearsRequired: 2,
     nextNodes: [160],
@@ -2070,7 +2070,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating software for macOS.',
     fullDesc:
-      'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
+     'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
     image: 'nodes/desktop-mac-dev.jpg',
     yearsRequired: 4,
     nextNodes: [161],
@@ -2083,7 +2083,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating software for macOS.',
     fullDesc:
-      'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
+     'MAC developers design applications specifically for Mac computers, leveraging macOS features and ensuring seamless integration with Apple’s ecosystem.',
     image: 'nodes/desktop-mac-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2096,7 +2096,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focusing on Linux-based applications and systems.',
     fullDesc:
-      'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
+     'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
     image: 'nodes/desktop-linux-dev.jpg',
     yearsRequired: 0,
     nextNodes: [162],
@@ -2109,7 +2109,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focusing on Linux-based applications and systems.',
     fullDesc:
-      'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
+     'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
     image: 'nodes/desktop-linux-dev.jpg',
     yearsRequired: 1,
     nextNodes: [163],
@@ -2122,7 +2122,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focusing on Linux-based applications and systems.',
     fullDesc:
-      'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
+     'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
     image: 'nodes/desktop-linux-dev.jpg',
     yearsRequired: 2,
     nextNodes: [164],
@@ -2135,7 +2135,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focusing on Linux-based applications and systems.',
     fullDesc:
-      'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
+     'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
     image: 'nodes/desktop-linux-dev.jpg',
     yearsRequired: 4,
     nextNodes: [165],
@@ -2148,7 +2148,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers focusing on Linux-based applications and systems.',
     fullDesc:
-      'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
+     'Linux developers create and maintain applications for Linux operating systems, optimizing performance and ensuring system stability within open-source environments.',
     image: 'nodes/desktop-linux-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2161,7 +2161,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating applications for Windows OS.',
     fullDesc:
-      'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
+     'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
     image: 'nodes/desktop-windows-dev.jpg',
     yearsRequired: 0,
     nextNodes: [166],
@@ -2174,7 +2174,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating applications for Windows OS.',
     fullDesc:
-      'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
+     'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
     image: 'nodes/desktop-windows-dev.jpg',
     yearsRequired: 1,
     nextNodes: [167],
@@ -2187,7 +2187,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating applications for Windows OS.',
     fullDesc:
-      'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
+     'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
     image: 'nodes/desktop-windows-dev.jpg',
     yearsRequired: 2,
     nextNodes: [168],
@@ -2200,7 +2200,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating applications for Windows OS.',
     fullDesc:
-      'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
+     'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
     image: 'nodes/desktop-windows-dev.jpg',
     yearsRequired: 4,
     nextNodes: [169],
@@ -2213,7 +2213,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Developers specialized in creating applications for Windows OS.',
     fullDesc:
-      'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
+     'Windows developers focus on building software applications for the Windows operating system. They utilize Microsoft technologies and frameworks to enhance functionality and user experience.',
     image: 'nodes/desktop-windows-dev.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2226,7 +2226,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Professionals focused on managing and analyzing data for insights.',
     fullDesc:
-      'Data specialists handle data collection, storage, and analysis processes. They work with databases, ensuring data integrity and harnessing information to support decision-making and strategies.',
+     'Data specialists handle data collection, storage, and analysis processes. They work with databases, ensuring data integrity and harnessing information to support decision-making and strategies.',
     image: 'nodes/data.jpg',
     yearsRequired: 0,
     nextNodes: [170, 171, 172, 173, 174],
@@ -2239,7 +2239,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: ' Specialists designing and maintaining data architectures.',
     fullDesc:
-      'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
+     'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
     image: 'nodes/data-engineer.jpg',
     yearsRequired: 0,
     nextNodes: [175],
@@ -2252,7 +2252,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: ' Specialists designing and maintaining data architectures.',
     fullDesc:
-      'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
+     'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
     image: 'nodes/data-engineer.jpg',
     yearsRequired: 1,
     nextNodes: [176],
@@ -2265,7 +2265,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: ' Specialists designing and maintaining data architectures.',
     fullDesc:
-      'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
+     'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
     image: 'nodes/data-engineer.jpg',
     yearsRequired: 2,
     nextNodes: [177],
@@ -2278,7 +2278,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: ' Specialists designing and maintaining data architectures.',
     fullDesc:
-      'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
+     'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
     image: 'nodes/data-engineer.jpg',
     yearsRequired: 4,
     nextNodes: [178],
@@ -2291,7 +2291,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: ' Specialists designing and maintaining data architectures.',
     fullDesc:
-      'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
+     'Data Engineers build and maintain systems that allow for efficient data collection, storage, and analysis. They work with big data technologies, ensuring that data pipelines are robust and scalable.',
     image: 'nodes/data-engineer.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2304,7 +2304,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Branch',
     shortDesc: 'Engineers specializing in deploying machine learning models.',
     fullDesc:
-      'Machine Learning Engineers develop and implement machine learning algorithms. They focus on optimizing models for performance and scalability, often collaborating with Data Scientists to bring ML solutions into production.',
+     'Machine Learning Engineers develop and implement machine learning algorithms. They focus on optimizing models for performance and scalability, often collaborating with Data Scientists to bring ML solutions into production.',
     image: 'nodes/ml-engineer.jpg',
     yearsRequired: 0,
     nextNodes: [179, 180, 181],
@@ -2317,7 +2317,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Engineers focusing on computer vision applications.',
     fullDesc:
-      'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
+     'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
     image: 'nodes/computer-vision.jpg',
     yearsRequired: 0,
     nextNodes: [182],
@@ -2330,7 +2330,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Engineers focusing on computer vision applications.',
     fullDesc:
-      'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
+     'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
     image: 'nodes/computer-vision.jpg',
     yearsRequired: 1,
     nextNodes: [183],
@@ -2343,7 +2343,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Engineers focusing on computer vision applications.',
     fullDesc:
-      'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
+     'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
     image: 'nodes/computer-vision.jpg',
     yearsRequired: 2,
     nextNodes: [184],
@@ -2356,7 +2356,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Engineers focusing on computer vision applications.',
     fullDesc:
-      'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
+     'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
     image: 'nodes/computer-vision.jpg',
     yearsRequired: 4,
     nextNodes: [185],
@@ -2369,7 +2369,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Engineers focusing on computer vision applications.',
     fullDesc:
-      'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
+     'Computer Vision Engineers design algorithms that enable machines to interpret and analyze visual information. They work on projects ranging from image processing to machine learning for visual data.',
     image: 'nodes/computer-vision.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2382,7 +2382,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists optimizing interactions with AI language models.',
     fullDesc:
-      'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
+     'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
     image: 'nodes/prompt-engineer.jpg',
     yearsRequired: 0,
     nextNodes: [186],
@@ -2395,7 +2395,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists optimizing interactions with AI language models.',
     fullDesc:
-      'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
+     'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
     image: 'nodes/prompt-engineer.jpg',
     yearsRequired: 1,
     nextNodes: [187],
@@ -2408,7 +2408,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists optimizing interactions with AI language models.',
     fullDesc:
-      'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
+     'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
     image: 'nodes/prompt-engineer.jpg',
     yearsRequired: 2,
     nextNodes: [188],
@@ -2421,7 +2421,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists optimizing interactions with AI language models.',
     fullDesc:
-      'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
+     'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
     image: 'nodes/prompt-engineer.jpg',
     yearsRequired: 4,
     nextNodes: [189],
@@ -2434,7 +2434,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists optimizing interactions with AI language models.',
     fullDesc:
-      'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
+     'Prompt Engineers develop and refine inputs to AI models to improve their output. They focus on crafting effective queries and understanding model behaviors to achieve desired results in natural language processing tasks.',
     image: 'nodes/prompt-engineer.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2447,7 +2447,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on developing natural language processing applications.',
     fullDesc:
-      'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
+     'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
     image: 'nodes/nlp.jpg',
     yearsRequired: 0,
     nextNodes: [190],
@@ -2460,7 +2460,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on developing natural language processing applications.',
     fullDesc:
-      'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
+     'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
     image: 'nodes/nlp.jpg',
     yearsRequired: 1,
     nextNodes: [191],
@@ -2473,7 +2473,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on developing natural language processing applications.',
     fullDesc:
-      'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
+     'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
     image: 'nodes/nlp.jpg',
     yearsRequired: 2,
     nextNodes: [192],
@@ -2486,7 +2486,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on developing natural language processing applications.',
     fullDesc:
-      'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
+     'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
     image: 'nodes/nlp.jpg',
     yearsRequired: 4,
     nextNodes: [193],
@@ -2499,7 +2499,7 @@ export const NODES: Record<number, NodeCardData> = {
     type: 'Profession',
     shortDesc: 'Specialists focused on developing natural language processing applications.',
     fullDesc:
-      'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
+     'NLP Engineers design and implement systems that enable machines to understand, interpret, and generate human language. They utilize machine learning, linguistic knowledge, and algorithms to create applications for tasks like sentiment analysis, chatbots, and translation systems, enhancing human-computer interaction through natural language understanding and generation.',
     image: 'nodes/nlp.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2511,9 +2511,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Intern',
     type: 'Profession',
     shortDesc:
-      'Professionals combining analytical skills with programming to derive insights from data.',
+     'Professionals combining analytical skills with programming to derive insights from data.',
     fullDesc:
-      'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
+     'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
     image: 'nodes/data-scientist.jpg',
     yearsRequired: 0,
     nextNodes: [194],
@@ -2525,9 +2525,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Junior',
     type: 'Profession',
     shortDesc:
-      'Professionals combining analytical skills with programming to derive insights from data.',
+     'Professionals combining analytical skills with programming to derive insights from data.',
     fullDesc:
-      'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
+     'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
     image: 'nodes/data-scientist.jpg',
     yearsRequired: 1,
     nextNodes: [195],
@@ -2539,9 +2539,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Middle',
     type: 'Profession',
     shortDesc:
-      'Professionals combining analytical skills with programming to derive insights from data.',
+     'Professionals combining analytical skills with programming to derive insights from data.',
     fullDesc:
-      'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
+     'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
     image: 'nodes/data-scientist.jpg',
     yearsRequired: 2,
     nextNodes: [196],
@@ -2553,9 +2553,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Senior',
     type: 'Profession',
     shortDesc:
-      'Professionals combining analytical skills with programming to derive insights from data.',
+     'Professionals combining analytical skills with programming to derive insights from data.',
     fullDesc:
-      'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
+     'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
     image: 'nodes/data-scientist.jpg',
     yearsRequired: 4,
     nextNodes: [197],
@@ -2567,9 +2567,9 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'CEO',
     type: 'Profession',
     shortDesc:
-      'Professionals combining analytical skills with programming to derive insights from data.',
+     'Professionals combining analytical skills with programming to derive insights from data.',
     fullDesc:
-      'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
+     'Data Scientists utilize statistical analysis and machine learning to extract valuable insights from data, transforming raw data into actionable strategies that drive decision-making.',
     image: 'nodes/data-scientist.jpg',
     yearsRequired: 5,
     nextNodes: [],
@@ -2578,13 +2578,65 @@ export const NODES: Record<number, NodeCardData> = {
   173: {
     nodeIdx: 173,
     title: 'Data Analyst',
-    prefix: '',
-    type: 'Branch',
+    prefix: 'Intern',
+    type: 'Profession',
     shortDesc: 'Specialists interpreting data to inform business decisions.',
     fullDesc:
-      'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
+     'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
     image: 'nodes/data-analyst.jpg',
     yearsRequired: 0,
+    nextNodes: [198],
+  },
+
+  198: {
+    nodeIdx: 198,
+    title: 'Data Analyst',
+    prefix: 'Junior',
+    type: 'Profession',
+    shortDesc: 'Specialists interpreting data to inform business decisions.',
+    fullDesc:
+     'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
+    image: 'nodes/data-analyst.jpg',
+    yearsRequired: 1,
+    nextNodes: [199],
+  },
+
+  199: {
+    nodeIdx: 199,
+    title: 'Data Analyst',
+    prefix: 'Middle',
+    type: 'Profession',
+    shortDesc: 'Specialists interpreting data to inform business decisions.',
+    fullDesc:
+     'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
+    image: 'nodes/data-analyst.jpg',
+    yearsRequired: 2,
+    nextNodes: [200],
+  },
+
+  200: {
+    nodeIdx: 200,
+    title: 'Data Analyst',
+    prefix: 'Senior',
+    type: 'Profession',
+    shortDesc: 'Specialists interpreting data to inform business decisions.',
+    fullDesc:
+     'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
+    image: 'nodes/data-analyst.jpg',
+    yearsRequired: 4,
+    nextNodes: [201],
+  },
+
+  201: {
+    nodeIdx: 201,
+    title: 'Data Analyst',
+    prefix: 'CEO',
+    type: 'Profession',
+    shortDesc: 'Specialists interpreting data to inform business decisions.',
+    fullDesc:
+     'Data Analysts collect, analyze, and visualize data to uncover trends, helping organizations make informed decisions based on comprehensive data insights.',
+    image: 'nodes/data-analyst.jpg',
+    yearsRequired: 5,
     nextNodes: [],
   },
 
@@ -2594,65 +2646,65 @@ export const NODES: Record<number, NodeCardData> = {
     prefix: 'Intern',
     type: 'Profession',
     shortDesc:
-      'Professionals conducting research to inform technology advancements and innovations.',
+     'Professionals conducting research to inform technology advancements and innovations.',
     fullDesc:
-      'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
+     'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
     image: 'nodes/researcher.jpg',
     yearsRequired: 0,
-    nextNodes: [198],
+    nextNodes: [202],
   },
 
-  198: {
-    nodeIdx: 198,
+  202: {
+    nodeIdx: 202,
     title: 'Researcher',
     prefix: 'Junior',
     type: 'Profession',
     shortDesc:
-      'Professionals conducting research to inform technology advancements and innovations.',
+     'Professionals conducting research to inform technology advancements and innovations.',
     fullDesc:
-      'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
+     'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
     image: 'nodes/researcher.jpg',
     yearsRequired: 1,
-    nextNodes: [199],
+    nextNodes: [203],
   },
 
-  199: {
-    nodeIdx: 199,
+  203: {
+    nodeIdx: 203,
     title: 'Researcher',
     prefix: 'Middle',
     type: 'Profession',
     shortDesc:
-      'Professionals conducting research to inform technology advancements and innovations.',
+     'Professionals conducting research to inform technology advancements and innovations.',
     fullDesc:
-      'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
+     'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
     image: 'nodes/researcher.jpg',
     yearsRequired: 2,
-    nextNodes: [200],
+    nextNodes: [204],
   },
 
-  200: {
-    nodeIdx: 200,
+  204: {
+    nodeIdx: 204,
     title: 'Researcher',
     prefix: 'Senior',
     type: 'Profession',
     shortDesc:
-      'Professionals conducting research to inform technology advancements and innovations.',
+     'Professionals conducting research to inform technology advancements and innovations.',
     fullDesc:
-      'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
+     'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
     image: 'nodes/researcher.jpg',
     yearsRequired: 4,
-    nextNodes: [201],
+    nextNodes: [205],
   },
 
-  201: {
-    nodeIdx: 201,
+  205: {
+    nodeIdx: 205,
     title: 'Researcher',
     prefix: 'CEO',
     type: 'Profession',
     shortDesc:
-      'Professionals conducting research to inform technology advancements and innovations.',
+     'Professionals conducting research to inform technology advancements and innovations.',
     fullDesc:
-      'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
+     'Researchers investigate emerging trends and new technologies, contributing valuable insights and empirical evidence that drive innovations and improvements in tech development.',
     image: 'nodes/researcher.jpg',
     yearsRequired: 5,
     nextNodes: [],
