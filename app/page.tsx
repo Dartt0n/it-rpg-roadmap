@@ -9,10 +9,15 @@ export default function HomePage() {
   const [currentNodeIdx, setCurrentNodeIdx] = useState(999);
   const [currentLevel, setCurrentLevel] = useState(0);
   const cards = NODES[currentNodeIdx].nextNodes.map((idx) => NODES[idx]);
+  const currentData = NODES[currentNodeIdx];
 
   return (
     <>
-      <ExperienceProgressBar level={currentLevel} setLevel={setCurrentLevel}>
+      <ExperienceProgressBar
+        data={currentData}
+        level={currentLevel}
+        setLevel={setCurrentLevel}
+      >
       </ExperienceProgressBar>
       <NodeGrid data={cards} setCurrent={setCurrentNodeIdx} level={currentLevel}>
       </NodeGrid>

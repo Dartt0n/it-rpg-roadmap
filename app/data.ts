@@ -1369,7 +1369,7 @@ export const NODES: Record<number, NodeCardData> = {
     shortDesc: 'Developers designing applications to run on desktop operating systems.',
     fullDesc:
       'Desktop developers create software applications for Windows, Mac, and Linux. They build programs that leverage the full capabilities of desktop environments, focusing on usability and system integration.',
-    image: 'nodes/desktop-windows-dev.jpg',
+    image: 'nodes/desktop.jpg',
     yearsRequired: 0,
     nextNodes: [114, 115, 116],
   },
