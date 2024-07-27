@@ -1,15 +1,19 @@
-import { Button, Grid, Stack, Progress } from '@mantine/core';
+import { Button, Grid, Stack, Progress, Text, Center } from '@mantine/core';
 import { Dispatch, SetStateAction, useState } from 'react';
 import classes from './ExperienceProgressBar.module.css';
+import { NodeCardData } from '../NodeCard/NodeCard';
+import { prefixToColor } from '@/utils/prefixColor';
 
 interface ExperienceProps {
   level: number;
+  data: NodeCardData;
   setLevel: Dispatch<SetStateAction<number>>;
 }
 
-export default function ExperienceProgressBar({ level, setLevel }: ExperienceProps) {
+export default function ExperienceProgressBar({ level, data, setLevel }: ExperienceProps) {
   const [exp, privateSetExp] = useState(0);
   const increment = 100 / 5;
+  const color = prefixToColor(data.prefix)
 
   const setExp = (value: number) => {
     if (value === 100) {
@@ -47,6 +51,24 @@ export default function ExperienceProgressBar({ level, setLevel }: ExperiencePro
             </Button>
           </Grid.Col>
         </Grid>
+        <Center>
+          {
+            data.type === 'Profession' ?
+              <Text size="xl">
+                Now you are{' '}
+                <Text
+                  span
+                  inherit
+                  c={color}
+                >
+                  {data.prefix} {data.title} level {level}
+                </Text>
+              </Text> :
+              <Text size="xl">
+                Now you are level {level}
+              </Text>
+          }
+        </Center>
       </Stack>
     </header>
   );
